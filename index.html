@@ -1,0 +1,868 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="icon" href="./img/favicon/favicon.png" type="image/png" />
+        <meta charset="utf-8" />        
+    </head>    
+    <body>
+        <aside>
+            <div class="aside-container">
+                <div class="aside-wrap">
+                    <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0">
+                        <div>
+                            <img src="./img/aside/Wikipedia-logo-for-Ukraine.png"  width="135" height="155" class="aside-image" />
+                        </div>
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0" class="nav-element">Головна сторінка</a></li>
+                    <li><a href="#" class="nav-element">Поточні події</a></li>
+                    <li><a href="#" class="nav-element">Нові редагування</a></li>
+                    <li><a href="#" class="nav-element">Нові сторінки</a></li>
+                    <li><a href="#" class="nav-element">Випадкова стаття</a></li>
+                </ul>
+                <ul class="nav-list">
+                    <h3 class="nav-list-title">Участь</h3>
+                    <li><a href="#" class="nav-element">Портал спільноти</a></li>
+                    <li><a href="#" class="nav-element">Кнайпа</a></li>
+                    <li><a href="#" class="nav-element">Довідка</a></li>
+                    <li><a href="#" class="nav-element">Пожертвувати</a></li>
+                    <li><a href="#" class="nav-element">Сторінка для медіа</a></li>
+                </ul>
+                <ul class="nav-list">
+                    <h3 class="nav-list-title">Інструменти</h3>
+                    <li><a href="#" class="nav-element">Посилання сюди</a></li>
+                    <li><a href="#" class="nav-element">Пов'язані редагування</a></li>
+                    <li><a href="#" class="nav-element">Спеціальні сторінки</a></li>
+                    <li><a href="#" class="nav-element">Постійне посилання</a></li>
+                    <li><a href="#" class="nav-element">Інформація про сторінку</a></li>
+                    <li><a href="#" class="nav-element">Цитувати сторінку</a></li>
+                    <li><a href="#" class="nav-element">Елемент Вікіданих</a></li>
+                    <li><a href="#" class="nav-element">Статистика відвідувань</a></li>
+                    <li><a href="#" class="nav-element">Посилання за ID</a></li>
+                </ul>
+                <ul class="nav-list">
+                    <h3 class="nav-list-title">Друк/експорт</h3>
+                    <li><a href="#" class="nav-element">Створити книгу</a></li>
+                    <li><a href="#" class="nav-element">Завантажити як PDF</a></li>
+                    <li><a href="#" class="nav-element">Версія до друку</a></li>
+                </ul>
+                <ul class="nav-list">
+                    <h3 class="nav-list-title">В інших проєктах</h3>
+                    <li><a href="#" class="nav-element">Вікісховище</a></li>
+                    <li><a href="#" class="nav-element">Вікіцитати</a></li>
+                </ul>
+                <ul class="nav-list">
+                    <div class="aside-language-container">
+                        <h3 class="nav-list-title">
+                            Іншими мовами
+                            <label for="lang-popup-checkbox">
+                                <img src="./img/aside/lan2.jpg" class="aside-language-setting">
+                            </label>    
+                        </h3>
+                    </div>
+                    <input type="checkbox" class="lang-popup-checkbox" id="lang-popup-checkbox" style="display: none1;" />
+                    <div id="pop-up" class="pop-up">
+                        <div class="popup-container">
+                            <div class="popup-section1">
+                                <a class="popup-close" href="#">
+                                    <label for="lang-popup-checkbox">
+                                        <img src="./img/aside/close.jpg" width="18" height="18" class="image-close" />
+                                    </label>
+                                </a>
+                            </div>
+                            <div class="container-section2-section4">
+                                <div class="section2">
+                                    <h2>
+                                        Налаштування мови
+                                    </h2>
+                                    <label class="section2-item">
+                                    <input type="radio" class="switcher" name="switch1" checked />
+                                    <div>
+                                        <div class="section2-container switcher-btn">
+                                            <div>
+                                                <img src="./img/aside/Aa.jpg" class="section2-img" />
+                                            </div>
+                                            <div class="section2-container-txt">
+                                                <span class="section2-text">Відображення</span>
+                                                <span class="section2-txt">Встановити мову меню та шрифтів</span>
+                                            </div>
+                                        </div>
+                                        <div class="section4 switcher-container">
+                                            <div class="knob-container">
+                                                <button class="section4-knob section4-knob-checked">
+                                                    <input type="radio" checked class="section4-item">
+                                                    <span class="section4-element section4-element-checked">Мова</span>
+                                                </button>
+                                                <button class="section4-knob section4-knob-item section4-knob-element">
+                                                    <input type="radio" class="section4-item"><span class="section4-element">Шрифти</span>
+                                                </button>
+                                            </div>
+                                            <p class="section4-txt"><strong>Мова відтворення:</strong> українська (так само, як і вміст)<br>
+                                                <a href="#" class="section4-link">Увійдіть в систему</a>, щоб вибрати іншу мову меню.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    </label>
+                                    <label class="section2-item">
+                                    <input type="radio" class="switcher" name="switch1" />
+                                        <div>
+                                            <div class="section2-container switcher-btn">
+                                                <div>
+                                                    <img src="./img/aside/keybord.jpg" class="section2-img" />
+                                                </div>
+                                                <div class="section2-container-txt">
+                                                    <span class="section2-text">Ввід</span>
+                                                    <span class="section2-txt">Пишите іншою мовою?</span>
+                                                </div>
+                                            </div>
+                                            <div class="section5 switcher-container">
+                                                <h3 class="section5-title">
+                                                    Налаштування вводу
+                                                </h3>
+                                                    <span class="section5-text">Мова вводу</span>
+                                                <div class="section5-knob-container">
+                                                    <button class="section4-elem section4-knob section4-knob-checked">
+                                                        <input type="radio" checked class="section4-item"><span class="section4-element section4-element-checked">Українська</span>
+                                                    </button>
+                                                    <button class="section4-elem section4-knob section4-knob-item section4-knob-element">
+                                                        <input type="radio" class="section4-item"><span class="section4-element">English</span>
+                                                    </button>
+                                                    <button class="section4-elem section4-knob section4-knob-item section4-knob-element">
+                                                        <input type="radio" class="section4-item"><span class="section4-element">Polski</span>
+                                                    </button>
+                                                    <button class="section4-elem section4-knob section4-knob-item section4-knob-element">
+                                                        <input type="radio" class="section4-item"><span class="section4-element section4-detail">...</span>
+                                                    </button>
+                                                </div>
+                                                <div class="container-input">
+                                                    <div class="container-button-item">
+                                                        <button class="knob-item">
+                                                        <input id="radio-button" type="radio" checked class="entry" />
+                                                        </button>
+                                                        <span class="knob-item-txt">кдб</span>
+                                                        <a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:UniversalLanguageSelector/Input_methods/uk-kbd" class="knob-item-link">Як використовувати</a>
+                                                    </div>
+                                                    <div class="container-button-item">
+                                                        <button class="knob-item">
+                                                        <input id="radiobutton" type="radio" class="entry" />
+                                                        </button>
+                                                        <span class="knob-item-txt">Використовувати рідну клавіатуру</span>
+                                                    </div>
+                                                </div>
+                                                <button class="entry-knob-item">
+                                                    Вимкнути інструмент вводу
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section6">
+                            <button class="section6-knob ">
+                                <span class="section4-element">Скасувати</span>
+                            </button>
+                            <button class="section6-knob section6-knob-item">
+                                <span class="section4-element section6-item">Застосувати налаштування</span>
+                            </button>
+                        </div>
+                    </div>
+                    <li>
+                        <a href="#" class="nav-element">
+                            Български
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-element">
+                            English
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-element">
+                            Magyar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-element">
+                            Polski
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-element">
+                            Română
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-element">
+                            Türkçe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-element">ייִדיש</a>
+                    </li>
+                    <button class="nav-list-knob">
+                        Ще 104
+                    </button>
+                    <div class="aside-redact">
+                        <a href="#" class="aside-redact-item">
+                            <span>
+                                <img src="./img/aside/write.jpg" width="12" height="12" class="aside-redact-image" />
+                                <span class="aside-redact-text">
+                                    Редагувати<br>посилання
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <div class="nav-container">
+                <nav class="nav-top-menu">
+                    <ul class="nav-item">
+                        <li class="list-item list-element-discussion">
+                            <img src="./img/nav/user-avatar.svg" width="15" height="15" class="list-item-img" />
+                            Ви не увійшли до системи
+                        </li>
+                        <li class="list-item ">
+                            <a href="#" class="link-item list-item-discussion">
+                                Обговорення
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="link-item">
+                                Внесок
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="link-item">
+                                Створити обліковий запис
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="link-item">
+                                Увійти
+                            </a>
+                        </li>                        
+                    </ul>
+                </nav>
+                <div class="pointer-discussion">
+                    <ul class="pointer-discussion-list">
+                        <li class="pointer-item pointer-element">
+                            <a href="#" class="pointer-link-item" title="Вміст статті [alt-shift-c]">
+                                <p class="pointer-unit">
+                                    Стаття
+                                </p>
+                            </a>
+                        </li>
+                        <li class="pointer-item pointer-one">
+                            <a href="file:///D:/Documents/wikipedia/discussion.html" class="pointer-link" title="Обговорення змісту сторінки (ще не написана) [alt-shift-t]">
+                                <p class="pointer-unit link-list-item">
+                                    Обговорення
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nol-container"><span class="nol-text">1</span></div>
+                    <ul class="pointer-discussion-roster">
+                        <li class="pointer-item pointer-element-read">
+                            <a href="#" class="pointer-link-item">
+                                <p class="pointer-unit">
+                                    Читати
+                                </p>
+                            </a>
+                        </li>
+                        <li class="pointer-item pointer-one-fix">
+                            <a href="#" class="pointer-citation">
+                                <p class="pointer-unit" title="Редагувати цю сторінку [alt-shift-v]">
+                                    Редагувати
+                                </p>
+                            </a>
+                        </li>
+                        <li class="pointer-item pointer-one-fix">
+                            <a href="#" class="pointer-citation">
+                                <p class="pointer-unit" title="Редагувати цю сторінку [alt-shift-e]">
+                                    Редагувати код
+                                </p>
+                            </a>
+                        </li>
+                        <li class="pointer-item pointer-one-fix">
+                            <a href="#" class="pointer-citation">
+                                <p class="pointer-unit">
+                                    Переглянути історію
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-list-element nav-list-search">
+                            <input type="text" placeholder="Пошук у Вікіпедії" class="nav-bottom-search-discussion" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-container">
+                <section class="description">                        
+                    <div class="section-title-container">
+                        <h1 class="description-title">
+                            Фараон
+                        </h1>
+                        <span class="section-title-text">[<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.</a>&nbsp;|&nbsp;<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.код</a>]</span>
+                    </div>                    
+                    <div class="subtitle">
+                        <span class="subtitle-txt">Матеріал з Вікіпедії — вільної енциклопедії.</span>
+                    </div>
+                    <div class="article">
+                        <img src="./img/main/disambig_colour.svg.webp" class="picture">
+                        <figure class="container-side-picture">
+                            <a href="#"><img src="./img/main/Rameses_III_(KV11).jpg" width="220" height="324" class="article-element-side-picture"></a>
+                            <figcaption class="signature">
+                                <a href="#">
+                                    <img src="./img/main/magnify-clip-ltr.svg" class="signature-pharaohp-image" />
+                                </a>
+                                Фараон <a href="#" class="article-element-txt-reference">Рамзес III</a>. Відреставроване зображення з гробниці фараона.
+                            </figcaption>
+                        </figure>
+                        <div class="hint-pharaoh">
+                            <span class="article-txt">У Вікіпедії є статті про інші значення цього терміна: <a href="#" class="article-link" title="Фараон (значення)">Фараон (значення).</a></span> 
+                            <div class="hint-pharaoh-content">
+                                <img src="./img/main/hint.svg" width="20" height="20" class="hint-pharaoh-image" />
+                                <h2 class="hint-pharaoh-title">
+                                    Фараон (значення)
+                                </h2>
+                                <p class="hint-pharaoh-text">
+                                    Ця назва стосується більше ніж однієї сторінки
+                                </p>
+                                <a href="#" class="hint-pharaoh-link">
+                                    Див. подібні сторінки
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-element">
+                        <div class="article-element-container">
+                            <img src="./img/main/Question_book-new.svg.webp" width="50" height="39" class="article-element-book-picture" />
+                            <span class="article-element-txt">
+                                Ця стаття <span class="article-element-txt-strong">потребує додаткових</span> 
+                                <a href="#" class="article-element-txt-link">посилань на джерела</a> <span class="article-element-txt-strong">
+                                для поліпшення її</span> <a href="#" class="article-element-txt-link">перевірності</a>. 
+                                Будь ласка, допоможіть <a href="#" class="article-element-txt-reference">удосконалити цю статтю</a>, додавши посилання на <a href="#" class="article-element-txt-reference">надійні (авторитетні) джерела</a>. 
+                                Зверніться на <a href="#" class="article-element-txt-mention">сторінку обговорення</a> за поясненнями та допоможіть виправити недоліки.<br>
+                                <div class="article-element-text">Матеріал без джерел може бути <a href="#" class="article-element-txt-reference">піддано сумніву</a> та вилучено. (вересень 2019)</div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="story-container">
+                        <div class="story">
+                            <span class="article-element-txt-strong">Фарао́н</span> — 
+                            <div class="hint-title">
+                                <a href="#" class="article-element-txt-reference">
+                                    титул
+                                </a>
+                                <span class="hint-title-content">
+                                    <p class="hint-title-text">
+                                        <span class="hint-title-strong">Ти́тул</span> — почесне звання, спадкове або таке, що надається окремим особам для підкреслення їх особливого, привілейованого становища. Звання вимагає відповідного титулування.
+                                    </p>
+                                    <div class="hint-title-image-container">
+                                        <a href="#" class="hint-title-link">
+                                            <img src="./img/aside/lan2.jpg" class="hint-title-image">
+                                        </a>
+                                    </div>
+                                </span>
+                            </div>
+                            <a href="#" class="article-element-txt-reference">монарха</a> 
+                            в <a href="#" class="article-element-txt-reference">Стародавньому Єгипті</a>, 
+                            сучасне найменування правителів <a href="#" class="article-element-txt-reference">Стародавнього Єгипту</a>.
+                        </div>
+                        <p class="story">Фараон вважався живим богом, який після своєї смерті повинен приєднатися до інших богів. Він носив титул Сина Сонця і мав релігійну, політичну та військову владу в усьому Єгипті. Кожен фараон мав п'ять так званих титульних імен. Фараони з одного роду, котрі правили послідовно, складали династію.</p>
+                        <p class="story">Помічником фараона був перший міністр (<a href="#" class="article-element-txt-reference">візир</a>), керівник <a href="#" class="article-element-txt-reference">виконавчої влади</a>.</p>
+                    </div>
+                    <ul class="content-item">
+                        <h3 class="content-title">
+                            Зміст <span class="content-title-item">[<a href="#" class="article-element-txt-reference">сховати</a>]</span>
+                        </h3>
+                        <li class="content-list">
+                            <a href="#" class="content-link-number">1</a>&nbsp;<a href="#etymology" class="content-link">Етимологія</a> 
+                        </li>
+                        <li class="content-list">
+                            <a href="#" class="content-link-number">2</a>&nbsp;<a href="#history" class="content-link">Історія</a> 
+                        </li>
+                        <li class="content-list">
+                            <a href="#" class="content-link-number">3</a>&nbsp;<a href="#attribute" class="content-link">Атрибути</a> 
+                        </li>
+                        <li class="content-list">
+                            <a href="#" class="content-link-number">4</a>&nbsp;<a href="#literature" class="content-link">Література</a> 
+                        </li>
+                        <li class="content-list">
+                            <a href="#" class="content-link-number">5</a>&nbsp;<a href="#see-also" class="content-link">Див. також</a> 
+                        </li>
+                        <li class="content-list">
+                            <a href="#" class="content-link-number">6</a>&nbsp;<a href="#link" class="content-link">Посилання</a> 
+                        </li>
+                    </ul>                                  
+                </section>
+                <section id="etymology">
+                    <div class="section-title-container">
+                        <h2 class="section-title">
+                            Етимологія
+                        </h2>
+                        <span class="section-title-text">[<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.</a>&nbsp;|&nbsp;<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.код</a>]</span>
+                    </div>
+                    <div class="etymology-container">
+                        <div class="etymology-side">
+                            <div class="etymology-picture-top">
+                                <p>Праа</p>
+                                <p>«Великий будинок»</p>
+                                <a href="#" class="etymology-picture-link">ієрогліфами</a>
+                            </div>
+                            <div class="etymology-picture-bottom">
+                                <img src="./img/main/hiero_1.png" class="etymology-picture-hiero-1" />
+                                <img src="./img/main/hiero_2.png" class="etymology-picture-hiero-2" />
+                            </div>
+                        </div>
+                        <div class="etymology-content">
+                            <p class="etymology-content-item">
+                                Фараон (Φαραώ) — грецьке слово, запозичене з 
+                                <a href="#" class="article-element-txt-reference">Біблії</a> (<a href="#" class="article-element-txt-reference">івр</a>. פַּרְעֹה‎, [ пар'о̄ ]), спотворене єгипетське «праа» (pr-aa), що буквально означає «великий будинок», тобто царський палац. Звичайним же найменуванням єгипетських царів був вираз «той, хто належить Очерету і Бджолі» («несу-біті»), тобто відповідно <a href="#" class="article-element-txt-reference">Верхньому</a> і <a href="#" class="article-element-txt-reference">Нижньому Єгипту</a>, або просто «повелитель обох земель» («небтауі»).
+                            </p>
+                            <p class="etymology-content-item">
+                                Словом праа почали називати персону царя лише за часів Нового царства після <a href="#" class="article-element-txt-mention">1580 до н.е.</a>. Вірогідно, ніколи не було офіційним титулом, а виникло як евфемізм, що дозволяє обійтися без згадки царського імені та офіційних царських титулів, в епоху Нового царства і особливо поширилося до середині <a href="#" class="article-element-txt-mention">I тис. до н.е.</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="history">
+                    <div class="section-title-container">
+                        <h2 class="section-title">
+                            Історія
+                        </h2>
+                        <span class="section-title-text">[<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.</a>&nbsp;|&nbsp;<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.код</a>]</span>
+                    </div>
+                    <div class="history-content-container">
+                        <p class="history-content">
+                            Давньосхідна монархія в Стародавньому Єгипті зародилися в другій половині IV тис. до н. е. Після об'єднання Верхнього Єгипту і захоплення царями <a href="#" class="article-element-txt-reference">Нармером</a> і <a href="#" class="article-element-txt-reference">Міною</a> (Менесом) дельти Ніла (XXXI в. до н. е.) Агресивний військовий характер цих монархій став змінюватися. Одночасно з розвитком <a href="#" class="article-element-txt-reference">бюрократичного апарату</a> і перекладом господарства в пряме підпорядкування монарху йшла сакралізація його влади. Цар став розглядатися як гарант прихильності <a href="#" class="article-element-txt-reference">богів</a> до країни. Починаючи з IV династії, він асоціюється не з богом <a href="#" class="article-element-txt-reference">Хором</a>, а з богом сонця <a href="#" class="article-element-txt-reference">Ра</a>, сином якого і вважається. Ра ж приписувалася роль першого фараона, відповідно всі наступні царі важалися також богами. Тоді ж одна за одною були побудовані <a href="#" class="article-element-txt-reference">Великі піраміди</a>, які уособлювали виняткову міць і велич правителів того часу.
+                        </p>
+                        <p class="history-content">
+                            Із занепадом <a href="#" class="article-element-txt-reference">Стародавнього царства</a>, кліматичною кризою XXIII—XXII ст. до н. е. та вступом Єгипту в <a href="#" class="article-element-txt-reference">I Перехідний період</a> могутність і авторитет єгипетських царів ослабли, зріс вплив і багатство знаті й державних чиновників. Епоха <a href="#" class="article-element-txt-reference">Середнього царства</a> так повністю і не повернула єгипетським царям втраченого. Після розпаду Середнього царства і завоювання Нижнього і частини Верхнього Єгипту <a href="#" class="article-element-txt-reference">гіксосами</a> здебільшого країною почала правити гіксосська династія, яка мала повноцінним сакральний статус.
+                        </p>
+                        <p class="history-content">
+                            Після вигнання гіксосів на початку <a href="#" class="article-element-txt-reference">Нового царства</a> Єгипет опинився в новому політичному становищі: він більше не домінував у регіоні, де у нього з'явилися такі могутні суперники, як царство <a href="#" class="article-element-txt-reference">Мітанні</a> і пізніше <a href="#" class="article-element-txt-reference">Хат</a> (Хетське царство). В результаті авторитет фараонів став ґрунтуватися значною мірою на їх військових успіхах. Тим, хто їх не мав (як жінка <a href="#" class="article-element-txt-reference">Хатшепсут</a> і цар-миротворець <a href="#" class="article-element-txt-reference">Аменхотеп III</a>), доводилося посилено переконувати підданих в своєму божественному походженні. Незважаючи на це, морально-ідеологічна залежність суспільства від царя вже не йшла ні в яке порівняння з Давнім царством. До кінця II тис. до н. е. <a href="#" class="article-element-txt-reference">децентралізація</a> єгипетського суспільства, зростання впливу храмів і <a href="#" class="article-element-txt-reference">номархів</a> закінчилися розпадом Нового царства.
+                        </p>
+                        <p class="history-content">
+                            З цього часу фараони не мали істотного впливу в регіоні. Лише деяким з них (наприклад, <a href="#" class="article-element-txt-reference">Псамметиху I</a>) вдавалося об'єднати Єгипет і втручатися в справи сусідніх країн. Населення і окремі господарства ставали все більш незалежні від царя, а його сакральна роль посередника між народом і богами практично зникла. У 525—485 рр. до н. е. фараонами Єгипту офіційно вважалися <a href="#" class="article-element-txt-reference">перські</a> царі <a href="#" class="article-element-txt-reference">Ахеменіди</a>, в 332—323 рр. до н. е. — <a href="#" class="article-element-txt-reference">Александр Македонський</a>, а після смерті останнього — <a href="#" class="article-element-txt-reference">Птолемеї</a>, його нащадки <a href="#" class="article-element-txt-reference">діадохи</a>.
+                        </p>
+                    </div>
+                </section>
+                <section id="attribute">
+                    <div class="section-title-container">
+                        <h2 class="section-title">
+                            Атрибути
+                        </h2>
+                        <span class="section-title-text">[<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.</a>&nbsp;|&nbsp;<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.код</a>]</span>
+                    </div>
+                    <figure class="container-side-painting">
+                        <a href="#"><img src="./img/main/Pharaoh.svg.png" class="article-element-side-picture" width="185" height="350" /></a> 
+                        <figcaption class="signature-pharaoh">
+                            <a href="#">
+                                <img src="./img/main/magnify-clip-ltr.svg" class="signature-pharaohp-image" />
+                            </a>
+                            Вбрання фараона. Сучасна реконструкція на основі зображень у гробницях
+                        </figcaption>
+                    </figure>
+                    <ul class="attribute-list">
+                        <li>
+                            <p class="attribute-content length">
+                                <span class="article-element-txt-strong">Корона</span> існувала в багатьох варіантах. Найбільш вживана подвійна корона <a href="#" class="article-element-txt-reference">«пшент»</a> складалася з червоною корони Нижнього Єгипту <a href="#" class="article-element-txt-reference">«дешрет»</a> і білої корони Верхнього Єгипту <a href="#" class="article-element-txt-reference">«хеджет»</a>. Кожна з цих двох корон належала також богиням-покровителькам цих частин країни — відповідно <a href="#" class="article-element-txt-reference">Уаджит</a>, богині-кобрі, і <a href="#" class="article-element-txt-reference">Нехбет</a>, яка шанувалася у вигляді <a href="#" class="article-element-txt-reference">стерв'ятника</a>. Зображення Уаджит (<a href="#" class="article-element-txt-reference">урей</a>) і Нехбет прикріплялися до корони спереду. Рідше надягали <a href="#" class="article-element-txt-reference">синю корона хепреш</a> (для військових походів), <a href="#" class="article-element-txt-reference">золоту корону Хаїт</a> (для ритуальних обрядів), діадему <a href="#" class="article-element-txt-reference">сешед</a> (в епоху Стародавнього царства), а також інші головні убори на кшталт корони <a href="#" class="article-element-txt-reference">хемхемет</a>, яка частіше зустрічаються на зображеннях богів, ніж фараонів.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="attribute-content length">
+                                <span class="article-element-txt-strong">Хустка</span> (<a href="#" class="article-element-txt-reference">немес</a>, або клафт) була звичайним головним убором в Єгипті, проте відрізнялася за кольорами в залежності від соціальної категорії носія. Царський немес, судячи з наявних зображень, був золотим із синіми смугами. Іноді поверх нього надягалася і корона.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="attribute-content length">
+                                <span class="article-element-txt-strong">Ґирлиґа</span> (<a href="#" class="article-element-txt-reference">хека</a>) — короткий <a href="#" class="article-element-txt-reference">жезл</a> із вигнутим верхнім кінцем. Відомий з додинастичних часів і походить, ймовірно, від <a href="#" class="article-element-txt-reference">пастушої палиці</a>. Його носили не тільки боги і царі, але також і вищі чиновники.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="attribute-content length">
+                                <span class="article-element-txt-strong">Батіг</span> або <a href="#" class="article-element-txt-link">ціп</a> (<a href="#" class="article-element-txt-reference">нехех</a>) зазвичай зображується разом з жезлом-гаком.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="attribute-content length">
+                                <span class="article-element-txt-strong">Жезл</span> — довга палиця з роздвоєним нижнім кінцем і навершям у вигляді голови собаки або шакала, пізніше стилізованим.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="attribute-content length">
+                                <span class="article-element-txt-strong">Накладна борідка</span> була символом влади і чоловічої сили царя. Виготовлялася штучно (оскільки у стародавніх єгиптян зазвичай не росли бороди) і підв'язувалася.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+                <section id="literature">
+                    <div class="section-title-container">
+                        <h2 class="section-title">
+                            Література
+                        </h2>
+                        <span class="section-title-text">[<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.</a>&nbsp;|&nbsp;<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.код</a>]</span>
+                    </div>
+                    <ul class="attribute-list">
+                        <li>
+                            <p class="attribute-content length">
+                                Весь Египет. 2-е издание, дополненное. стор.7. (рос.) <a href="#" class="article-element-txt-reference">ISBN 88-8029-353-2</a>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+                <section id="see-also">
+                    <div class="section-title-container">
+                        <h2 class="section-title">
+                            Див. також
+                        </h2>
+                        <span class="section-title-text">[<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.</a>&nbsp;|&nbsp;<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.код</a>]</span>
+                    </div>
+                    <ul class="see-also-list">
+                        <li>
+                            <a href="#" class=" attribute-content article-element-txt-reference">
+                                Список фараонів
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="attribute-content article-element-txt-reference">
+                                Єгипетська хронологія
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="side-block backdown">
+                        <div>
+                            <img src="./img/main/Wikiquote-logo.svg.webp" class="side-block-image" width="34" height="40"/>
+                        </div>
+                        <div>
+                            <p class="side-block-text">
+                            <a href="#" class="side-block-link">Вікіцитати</a> містять висловлювання на тему: <a href="#" class="side-block-link fatty cursive">Фараон</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="link" class="container-section-link">
+                    <div class="section-title-container extent">
+                        <h2 class="section-title">
+                            Посилання
+                        </h2>
+                        <span class="section-title-text">[<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.</a>&nbsp;|&nbsp;<a href="#" class="section-title-link" title="Редагувати вступний розділ">ред.код</a>]</span>
+                    </div>
+                    <div class="package">
+                        <ul class="link-list">
+                            <li>
+                                <p class="length">
+                                    <a href="#" class="attribute-content article-element-txt-reference">Фараон</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" />
+                                    <a href="#" class="attribute-list-link">[Архівовано</a>
+                                    <span class="attribute-list-text"> 21 листопада 2016 у</span> 
+                                    <a href="#" class="attribute-list-link">Wayback Machine.]</a> 
+                                    // 
+                                    <a href="#" class="attribute-content article-element-txt-reference">Юридична енциклопедія</a>
+                                    <span class="attribute-list-txt"> : [у 6 т.] / ред. кол.:</span> 
+                                    <a href="#" class="attribute-content article-element-txt-reference">Ю. С. Шемшученко</a>
+                                    <span class="attribute-list-txt"> (відп. ред.) [та ін.]. — К. : </span>
+                                    <a href="#" class="attribute-content article-element-txt-reference">Українська енциклопедія ім. М. П. Бажана</a>, 
+                                    <span class="attribute-list-txt">2004. — Т. 6 : Т — Я. — 768 с. — </span>
+                                    <a href="#" class="article-element-txt-reference">ISBN 966-7492-06-0</a>.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="length">
+                                    <a href="#" class="attribute-content article-element-txt-reference">Фараон</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" />
+                                    // 
+                                    <a href="#" class="attribute-content article-element-txt-reference">Універсальний словник-енциклопедія</a>. 
+                                    <span class="attribute-list-txt">— 4-те вид. — К. : </span>
+                                    <a href="#" class="attribute-content article-element-txt-reference">Тека</a>, 
+                                    <span class="attribute-list-txt">2006.</span>
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="side-panel">
+                            <div>
+                                <img src="./img/main/49px-WiktionaryUk.svg.webp" class="side-block-image" width="34" height="40" />
+                            </div>
+                            <div>
+                                <p class="side-block-text">
+                                    У<a href="#" class="side-block-link"> Вікісловнику</a>  є сторінка <a href="#" class="side-block-link fatty cursive">фараон</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>           
+                </section>
+                <section class="used-literature">
+                    <table class="chart">
+                        <tr class="string-container">
+                            <th class="chart-header chart-header-h">
+                                <img src="./img/main/Searchtool.svg.webp" width="14" height="14">
+                                <p class="chart-text chart-text-p">
+                                    Тематичні сайти
+                                </p>
+                            </th>
+                            <td class="cell-container cell-container-h">
+                                <p class="string-text">
+                                    <a href="#" class="chart-link">Quora</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Yleinen suomalainen ontologia</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-picture"/>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="string-container">
+                            <th class="chart-header chart-header-he">
+                                <p class="chart-text chart-text-pa">
+                                    Словники та енциклопедії
+                                </p>
+                            </th>
+                            <td class="cell-container cell-container-he">
+                                <p class="string-text">
+                                    <a href="#" class="chart-link">Велика данська енциклопедія</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link">Велика українська енциклопедія</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Catholic Encyclopedia</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-picture" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Encyclopædia Britannica</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Encyclopædia Universalis</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-picture" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Klexikon</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Treccanis Dizionario di Storia</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-picture" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> World History Encyclopedia</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="string-container">
+                            <th class="chart-header chart-header-h">
+                                <p class="chart-text chart-text-p">
+                                    Довідкові видання	
+                                </p>
+                            </th>
+                            <td class="cell-container cell-container-h">
+                                <p class="string-text">
+                                    <a href="#" class="chart-link">KBpedia</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> WordNet</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-picture" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Nuovo soggettario</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-picture" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Іспанська Вікідія</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-picture" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Французька Вікідія</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-picture" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="string-container">
+                            <th class="chart-header chart-header-h">
+                                <a href="#" class="string-link">Нормативний контроль</a>
+                            </th>
+                            <td class="cell-container cell-container-h cell-container-b">
+                                <p class="string-text">
+                                    <a href="#" class="chart-link">BNE:</a>
+                                    <a href="#" class="chart-link"> XX528957</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> BNF:</a>
+                                    <a href="#" class="chart-link"> 11954986w</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> Freebase:</a>
+                                    <a href="#" class="chart-link"> /m/05sx9</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> GND:</a>
+                                    <a href="#" class="chart-link"> 4133037-7</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> J9U:</a>
+                                    <a href="#" class="chart-link"> 987007541289805171</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> LCCN:</a>
+                                    <a href="#" class="chart-link"> sh85100578</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                    <span>&nbsp;·&nbsp;</span>
+                                    <a href="#" class="chart-link"> SUDOC:</a>
+                                    <a href="#" class="chart-link"> 027528928</a>
+                                    <img src="./img/main/link-external-small-ltr-progressive.svg" class="chart-image" />
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <p class="cell-text">
+                                    <a href="#" title="Переглянути цей шаблон" class="cell-link">п</a>
+                                    <span>·&nbsp;</span><a href="#" title="Обговорити цей шаблон" class="cell-link cell-link-hue">о</a>                                    
+                                    <span>·&nbsp;</span><a href="#" title="Редагувати цей шаблон" class="cell-link">р</a>
+                                </p>
+                                <p>
+                                    <a href="#" class="cell-reference">
+                                        Стародавній Єгипет
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="#" title="Переглянути цей шаблон" class="cell-link">[показати]</a>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cell">
+                                <p class="cell-text">
+                                    <a href="#" title="Переглянути цей шаблон" class="cell-link">п</a>
+                                    <span>·&nbsp;</span><a href="#" title="Обговорити цей шаблон" class="cell-link">о</a>                                    
+                                    <span>·&nbsp;</span><a href="#" title="Редагувати цей шаблон" class="cell-link">р</a>
+                                </p>
+                                <p>
+                                    <span class="cell-txt">Видатні діячі</span>
+                                    <a href="#" class="cell-reference">
+                                        Стародавнього Єгипту
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="#" title="Переглянути цей шаблон" class="cell-link">[показати]</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="report">
+                    <div class="report-item">
+                        <img src="./img/main/113px-Prince_du_Sang.png" width="75" height="29" />
+                        <p class="report-text">
+                            Це незавершена стаття про <a href="#" class="report-link">монарха</a>, <a href="#" class="report-link">династію</a> чи її представника (представницю).<br>
+                            Ви можете <a href="#" class="report-link">допомогти</a> проєкту, <a href="#" class="report-link">виправивши або дописавши її</a>.
+                        </p>
+                    </div>
+                    <div class="report-item">
+                        <img src="./img/main/Head_of_the_Great_Sphinx_(icon).png" width="50" height="40" />
+                        <p class="report-text">
+                            Це незавершена стаття про <a href="#" class="report-link">Стародавній Єгипет</a>.<br>
+                            Ви можете <a href="#" class="report-link">допомогти</a> проєкту, <a href="#" class="report-link">виправивши або дописавши її</a>.
+                        </p>
+                    </div>
+                </section>
+                <section class="category">
+                    <ul class="category-list">
+                        <li class="category-item category-item-border">
+                            <a href="#" class="category-element">
+                                Категорії:
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-element">
+                                Титули
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-element">
+                                Стародавній Єгипет
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-element">
+                                Фараони
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-element">
+                                Обожнені люди
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-element">
+                                Посади і титули Стародавнього Єгипту
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-element">
+                                Глави держав
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="vault">
+                <div class="vault-container">
+                    <p class="vault-text">
+                        Цю сторінку востаннє відредаговано о 17:23, 16 жовтня 2022.
+                    </p>
+                    <p class="vault-text">
+                        Текст доступний на умовах ліцензії<a href="#" class="vault-link"> Creative Commons Attribution-ShareAlike;</a><span class="vault-txt">також</span> можуть діяти додаткові умови. Детальніше див. <a href="#" class="vault-link">Умови використання</a>.
+                    </p>
+                    <div class="vault-box">
+                        <ul class="vault-list">
+                            <li>
+                                <a href="#" class="vault-link vault-size">
+                                    Політика конфіденційності
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="vault-link vault-size">
+                                    Про Вікіпедію
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="vault-link vault-size">
+                                    Відмова від відповідальності
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="vault-link vault-size">
+                                    Зворотний зв'язок
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="vault-link vault-size">
+                                    Мобільний вигляд
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="vault-link vault-size">
+                                    Розробники
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="vault-link vault-size">
+                                    Статистика
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="vault-link vault-size">
+                                    Куки
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="footer-picture">
+                            <img src="./img/footer/poweredby_mediawiki_132x47.png" width="88" height="31" />
+                            <img src="./img/footer/wikimedia-button-1.5x.png" width="88" height="31" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>    
+    </body>
+</html>
