@@ -776,7 +776,14 @@ input[type="radio"]{
     background-repeat: no-repeat;
     background-position: 280px;
     background-size: 15px;
-} 
+}
+
+.nav-bottom-search-discussion:active,
+.nav-bottom-search-discussion:hover,
+.nav-bottom-search-discussion:focus-visible{
+    outline: 2px solid #3366cc;
+}
+
 
 .discussion-container{
     margin-top: 1.7em;
